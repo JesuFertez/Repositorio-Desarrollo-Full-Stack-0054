@@ -1,0 +1,42 @@
+h1 {
+    color: cornflowerblue;
+}
+
+body {
+    background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20210207/pngtree-white-background-texture-simple-image_555824.jpg);
+}
+
+.imgs {
+    display: flex;
+    justify-content: space-around;
+}
+
+.img {
+    width: 250px;
+    max-height: auto;
+}
+
+.informacion {
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+    h1 {
+        color: white;
+        background-color: cornflowerblue;
+    }
+
+    .imgs {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+.filaBotton {
+    margin-top: 15px;
+    justify-content: end;
+}
+.footerColor{
+    background-color: rgb(203, 243, 203);
+}
